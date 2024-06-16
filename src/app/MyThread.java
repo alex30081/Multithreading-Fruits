@@ -8,6 +8,7 @@ public class MyThread extends Thread {
         super(name);
         this.dataHandler = dataHandler;
     }
+
     @Override
     public void run() {
         dataHandler.getOutput();
